@@ -1,0 +1,119 @@
+body{
+background-color: black;
+
+}
+svg.s{
+   margin-left: 21%; 
+   margin-top: -27%;
+   display: block;
+   padding-top: 0%;
+   position: relative;
+   z-index: auto;
+}
+section{
+display: block;
+color: rgb(255, 255, 255);    
+position: relative;
+margin-left: 35%;
+margin-top: 37.5%;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+
+.sa{
+   margin-left: 40%; 
+   margin-top: 4%;
+   position: absolute;
+   
+}
+
+.saF{
+   margin-left: 40%; 
+   margin-top: 4%;
+   position: relative;
+  
+}
+
+
+.sp{
+   margin-left: 21%; 
+   margin-top: 0%;
+
+  
+}
+
+.st{
+   margin-left: 27%; 
+   padding-top: 1%;
+   
+}
+
+.stF{
+   margin-left: 27%; 
+   margin-top: -25%;
+   animation: fin 8s linear;
+   animation-fill-mode: forwards;
+}
+
+
+.dg1{
+   animation: diag 4s;
+}
+
+.dg2{
+   animation: diag 15s;
+}
+
+.dg3{
+   animation: diag 25s;
+}
+
+
+ellipse[class^="pup"]{
+   animation: ojos 6s;
+   
+} 
+
+
+
+@keyframes diag {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+
+ 
+ @keyframes ojos {
+   
+  100% {
+    transform: translateX(0%);
+  }
+  
+  0% {
+    transform: translateX(2%);
+   
+  }
+
+ 
+  
+ }
+
+ @keyframes fin {
+   from {
+     opacity: 1;
+   }
+   to {
+     opacity: 0;
+   }
+ }
+
+ @keyframes finC{
+   0% {transform: scale(100%);}
+   25%{transform: scale(110%);}
+   75%{transform: scale(90%);}
+   100% {transform: scale(100%);}
+ }
